@@ -1,0 +1,68 @@
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.hidden {
+  visibility: none;
+}
+.reader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: tawble;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.ir {
+  text-indext: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.break {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+.ellipsis {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+pre {
+  white-space: pre-wrap;
+/* Chrome & Safari */
+  white-space: -moz-pre-wrap;
+/* Mozilla since 1999 */
+  white-space: -pre-wrap;
+/* Opera 4-6 */
+  white-space: -o-pre-wrap;
+/* Opera 7 */
+  word-wrap: break-word;
+/* Internet Explorer 5.5+ */
+}

@@ -1,0 +1,96 @@
+// Drop-shadow
+// ===========
+
+// direction
+// ===========
+
+//    <div class="block drop-shadow top">top</div>
+//    <div class="block drop-shadow right">right</div>
+//    <div class="block drop-shadow bottom">bottom</div>
+//    <div class="block drop-shadow left">left</div>
+
+.drop-shadow.top 
+    box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.4);
+
+.drop-shadow.right  
+    box-shadow: 4px 0 2px -2px rgba(0,0,0,0.4);
+
+.drop-shadow.bottom 
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+
+.drop-shadow.left 
+    box-shadow: -4px 0 2px -2px rgba(0,0,0,0.4);
+
+
+// emphesized
+// ===========
+
+//    <div class="block emphasize-dark">dark</div>
+//    <div class="block emphasize-light">light</div>
+//    <div class="block emphasize-inset">inset</div>
+//    <div class="block emphasize-border">border</div>
+
+.emphasize-dark
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+
+.emphasize-light
+  box-shadow: 0 0 0 10px rgba(255,255,255,.25);
+
+.emphasize-inset
+  box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5);
+
+.emphasize-border
+  box-shadow: inset 0 0 0 7px rgba(255,255,255,.5);
+
+// Embossed
+// ===========
+
+//    <div class="block embossed-light">emphasize-light</div>
+//    <div class="block embossed-heavy">embossed-heavy</div>
+
+.embossed-light
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+
+.embossed-heavy
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 3px rgba(255,255,255,0.3), inset 0 -2px 3px rgba(0,0,0,0.3), 0 1px 1px rgba(255,255,255,0.9);
+
+// Round conner
+// ===========
+
+//    <div class="block light-rounded">embossed-heavy</div>
+//    <div class="block heavy-rounded">embossed-heavy</div>
+//    <div class="block full-rounded">embossed-heavy</div>
+//    <div class="block barrel-rounded">embossed-heavy</div>
+.light-rounded
+    border-radius: 3px
+
+.heavy-rounded
+    border-radius: 8px
+
+.full-rounded
+    border-radius: 50%
+
+.barrel-rounded
+    border-radius: 20px/60px
+						
+	
+	
+
+
+// demo stuff...
+// =============
+
+.block
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    position: relative;
+    float: left;
+    color: #fff;
+    padding: 20px;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+
+.block
+    background: #9479fa;

@@ -1,0 +1,18 @@
+@media print {
+  * {
+    background: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  a[href="#"],
+  a[href="javascript:"] {
+    content: "";
+  }
+}

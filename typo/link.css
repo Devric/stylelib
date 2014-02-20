@@ -1,0 +1,76 @@
+.inline-link-3 {
+  display: inline-block;
+  position: relative;
+  padding-left: 6px;
+/* Font styles */
+  text-decoration: none;
+  color: #6ab3ec;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+}
+.inline-link-3:hover {
+  color: #3c9ce7;
+}
+.inline-link-3:before {
+  content: "\25BA";
+  font-size: 80%;
+  display: inline-block;
+  padding-right: 3px;
+  pointer-events: none;
+}
+.inline-link-3:hover:before {
+  color: #f2bf97;
+}
+.inline-link-1 {
+  display: inline-block;
+  margin: 0 0.2em;
+  padding: 3px;
+  background: #97caf2;
+  border-radius: 2px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.inline-link-1:hover {
+  background: #53a7ea;
+}
+.inline-link-1:active {
+  background: #c4e1f8;
+}
+.inline-link-1:visited {
+  background: #f2bf97;
+}
+.inline-link-2 {
+  display: inline-block;
+  border-bottom: 1px dashed rgba(0,0,0,0.4);
+/* Font styles */
+  text-decoration: none;
+  color: #777;
+}
+.inline-link-2:hover {
+  border-bottom-style: dotted;
+}
+.inline-link-2:active {
+  border-bottom-style: solid;
+}
+.inline-link-2:visited {
+  border-bottom: 1px solid #97caf2;
+}
+.bordered-link {
+  display: inline-block;
+  padding: 8px;
+  border: 3px solid #fcb326;
+  border-radius: 6px;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.2), inset 0 2px 1px rgba(0,0,0,0.2);
+/* Font styles */
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222;
+}
+.bordered-link:hover {
+  border-color: #fdd68b;
+}
+.bordered-link:active {
+  border-color: #fee8bd;
+}

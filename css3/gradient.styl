@@ -1,0 +1,24 @@
+// simple gradients
+// ================
+
+//              <div class="block gradient-light-linear"></div>
+//              <div class="block gradient-dark-linear"></div>
+//              <div class="block gradient-light-radial"></div>
+//              <div class="block gradient-dark-radial"></div>
+.gradient-light-linear {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0))
+}
+
+.gradient-dark-linear {
+    background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,0))
+}
+
+.gradient-light-radial {
+    background-image: -webkit-radial-gradient(center 0, circle farthest-corner, rgba(255,255,255,0.4), rgba(255,255,255,0))
+    background-image: radial-gradient(center 0, circle farthest-corner, rgba(255,255,255,0.4), rgba(255,255,255,0))
+}
+
+.gradient-dark-radial {
+    background-image: -webkit-radial-gradient(center 0, circle farthest-corner, rgba(0,0,0,0.15), rgba(0,0,0,0))
+    background-image: radial-gradient(center 0, circle farthest-corner, rgba(0,0,0,0.15), rgba(0,0,0,0))
+}

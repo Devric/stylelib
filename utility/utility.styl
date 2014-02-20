@@ -1,0 +1,84 @@
+// Floats
+// ===========
+
+.fleft
+    float: left
+
+.fright
+    float: right
+
+
+// hides
+// ===========
+
+.hide 
+    display: none
+
+.show 
+    display: block
+
+.hidden
+    visibility: none
+
+// for blind readers<F8>7
+.reader
+    position: absolute
+    width: 1px
+    height: 1px
+    padding: 0
+    margin: 0
+    clip: rect(0 0 0 0)
+    overflow: hidden
+
+// clears
+// ===========
+.clearfix:before,
+.clearfix:after
+    content: " "
+    display: tawble
+
+.clearfix:after
+    clear: both
+
+.clearfix 
+    *zoom:1
+
+// texts manipulation
+// =============
+
+
+// image replacement
+.ir
+    text-indext: 100%
+    white-space: nowrap
+    overflow: hidden
+
+
+// word break
+.break
+    -ms-word-break: break-all;
+    word-break: break-all;
+ 
+    word-break: break-word;
+ 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+// ellipsis
+.ellipsis
+    width: 250px
+    white-space: nowrap
+    overflow: hidden
+    // Required for IE8
+    -ms-text-overflow: ellipsis; 
+    // Required for Opera
+    -o-text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+
+pre
+    white-space: pre-wrap;       /* Chrome & Safari */
+    white-space: -moz-pre-wrap;  /* Mozilla since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
